@@ -4,6 +4,27 @@
 - Lucas Abbiati, BCC,
 - Luis
 
+
+ ## Funcionamento do Algoritmo A*:
+
+1. **Inicialização**: O algoritmo começa com um nó inicial e um nó final, ambos definidos no grafo. Também mantém uma lista de nós a serem avaliados.
+
+2. **Cálculo das Heurísticas**: Para cada nó, o algoritmo calcula dois valores:
+   - **g(n)**: O custo real do caminho do nó inicial até o nó atual.
+   - **h(n)**: A heurística (estimativa) do custo do caminho do nó atual até o nó final. Esta heurística deve ser admissível, ou seja, nunca superestimar o custo real para alcançar o destino. Uma heurística comum é a distância euclidiana entre os nós no caso de um problema de busca em um espaço contínuo.
+
+3. **Custo Total**: O custo total para alcançar um nó é dado por **f(n) = g(n) + h(n)**.
+
+4. **Exploração dos Nós**: O algoritmo começa a explorar os nós na ordem do menor custo total estimado (f(n)). Ele seleciona o nó com o menor f(n) na lista de nós a serem avaliados.
+
+5. **Atualização dos Custos**: Para os nós vizinhos do nó selecionado, o algoritmo atualiza os custos g(n) e f(n) se um novo caminho mais curto for encontrado. Ele mantém um registro dos nós já visitados para evitar ciclos.
+
+6. **Critérios de Parada**: O algoritmo continua a explorar e atualizar os custos até que o nó de destino seja alcançado ou não haja mais nós para explorar na lista.
+
+
+
+## Project
+
 This package contains a toolkit designed for the DC Autonomous Mobile Robot. Developed as part of the Department of Computer - Autonomous Mobile Robot (DCAMR) Project, this toolkit provides essential functionalities for the DC robot's autonomous capabilities.
 
  
