@@ -1,10 +1,13 @@
 # Projeto1 - GrupoB
 
 - Augusto Luchesi Matos, BCC, 740871
-- Lucas Abbiati, BCC,
-- Luis
+- Lucas Abbiati Pereira, BCC, 801572
+- Luís Fernando do Carmo Lourenço, BCC, 800210
 
-
+ ## Desenvolvimento 
+ Desenvolvemos o projeto em ROS, utilizando o robô do DC e o mapa pré-definido "EnvDC_2ndfloor.world", com o ponto de partida em frente ao LARIS.
+ Primeiramente, foi feito o mapeamento da área através do sendor LIDAR presente no robô e foi feito um planejamento de trajetória baseado no algoritmo A*.
+ 
  ## Funcionamento do Algoritmo A*:
 
 1. **Inicialização**: O algoritmo começa com um nó inicial e um nó final, ambos definidos no grafo. Também mantém uma lista de nós a serem avaliados.
