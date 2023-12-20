@@ -1,6 +1,6 @@
 # Projeto1 - GrupoB
 
-catkin build
+catkin build na pasta /home/$USER/dcrobot_ws/src
 
 roscore na pasta /home/$USER/dcrobot_ws/src
 
