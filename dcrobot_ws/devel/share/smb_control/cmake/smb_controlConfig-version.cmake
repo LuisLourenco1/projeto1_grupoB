@@ -1,0 +1,1 @@
+/home/luis/dcrobot_ws/devel/.private/smb_control/share/smb_control/cmake/smb_controlConfig-version.cmake

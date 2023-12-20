@@ -1,0 +1,8 @@
+prefix=/home/luis/dcrobot_ws/install
+
+Name: envrobotz
+Description: Description of envrobotz
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

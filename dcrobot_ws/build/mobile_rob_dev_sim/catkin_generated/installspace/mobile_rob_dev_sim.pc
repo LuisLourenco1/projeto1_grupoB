@@ -1,0 +1,8 @@
+prefix=/home/luis/dcrobot_ws/install
+
+Name: mobile_rob_dev_sim
+Description: Description of mobile_rob_dev_sim
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

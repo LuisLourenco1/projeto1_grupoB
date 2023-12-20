@@ -1,0 +1,8 @@
+prefix=/home/luis/dcrobot_ws/devel/.private/smb_navigation_scripts
+
+Name: smb_navigation_scripts
+Description: Description of smb_navigation_scripts
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

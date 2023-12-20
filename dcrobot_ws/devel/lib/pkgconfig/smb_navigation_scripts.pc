@@ -1,0 +1,1 @@
+/home/luis/dcrobot_ws/devel/.private/smb_navigation_scripts/lib/pkgconfig/smb_navigation_scripts.pc

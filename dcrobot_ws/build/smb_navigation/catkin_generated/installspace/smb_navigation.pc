@@ -1,0 +1,8 @@
+prefix=/home/luis/dcrobot_ws/install
+
+Name: smb_navigation
+Description: Description of smb_navigation
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lsmb_navigation
+Requires: roscpp move_base grid_map_costmap_2d grid_map_ros pcl_ros octomap_ros

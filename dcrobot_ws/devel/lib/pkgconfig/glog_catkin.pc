@@ -1,0 +1,1 @@
+/home/luis/dcrobot_ws/devel/.private/glog_catkin/lib/pkgconfig/glog_catkin.pc

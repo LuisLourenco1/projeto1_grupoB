@@ -1,0 +1,1 @@
+/home/luis/dcrobot_ws/devel/.private/path_planning/lib/pkgconfig/path_planning.pc

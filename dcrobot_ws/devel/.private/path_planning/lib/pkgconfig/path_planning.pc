@@ -1,0 +1,8 @@
+prefix=/home/luis/dcrobot_ws/devel/.private/path_planning
+
+Name: path_planning
+Description: Description of path_planning
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
