@@ -1,13 +1,5 @@
 # Projeto1 - GrupoB
 
-catkin build na pasta /home/$USER/dcrobot_ws/src
-
-roscore na pasta /home/$USER/dcrobot_ws/src
-
-roslaunch gazebo.launch (na pasta que está o gazebo.launch: /home/$USER/dcrobot_ws/src/dcrobot/mobile_rob_dev_sim/launch
-
-rosrun path_planning path_planning.py (na pasta que está o path_planning.py: /home/$USER/dcrobot_ws/src/path_planning/src/scripts
-
 - Augusto Luchesi Matos, BCC, 740871
 - Lucas Abbiati Pereira, BCC, 801572
 - Luís Fernando do Carmo Lourenço, BCC, 800210
@@ -82,6 +74,7 @@ git clone https://github.com/MatosAugusto/projeto1_grupoB.git
 ```bash
 cd /home/$USER/dcrobot_ws/
 catkin build
+roscore
 ```
 
 ### Source your catkin workspace
@@ -94,7 +87,18 @@ source /home/$USER/dcrobot_ws/devel/setup.bash
 You have to run the following commands on your Linux terminal
 
 ```bash
-cd /home/$USER/dcrobot_ws/src/dcrobot/mobile_rob_dev_sim/launch
+/home/$USER/dcrobot_ws/src/dcrob
+ot/mobile_rob_dev_sim/launch
 
 roslaunch gazebo.launch
+```
+Open a new terminal, because this command occupies the terminal.
+Run the path planning
+
+```bash
+/home/$USER/dcrobot_ws/src/path_
+planning/src/scripts
+
+rosrun path_planning
+path_planning.py
 ```
