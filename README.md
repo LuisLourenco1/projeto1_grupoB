@@ -1,5 +1,10 @@
 # Projeto1 - GrupoB
 
+catkin build
+roscore na pasta /home/$USER/dcrobot_ws/src
+roslaunch gazebo.launch (na pasta que está o gazebo.launch: /home/$USER/dcrobot_ws/src/dcrobot/mobile_rob_dev_sim/launch
+rosrun path_planning path_planning.py (na pasta que está o path_planning.py: /home/$USER/dcrobot_ws/src/path_planning/src/scripts
+
 - Augusto Luchesi Matos, BCC, 740871
 - Lucas Abbiati Pereira, BCC, 801572
 - Luís Fernando do Carmo Lourenço, BCC, 800210
