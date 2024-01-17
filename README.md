@@ -67,6 +67,7 @@ catkin config -DCMAKE_BUILD_TYPE=Release
 
 ```bash
 cd /home/$USER/dcrobot_ws/src
+git clone https://github.com/vivaldini/dcrobot
 git clone https://github.com/MatosAugusto/projeto1_grupoB.git
 ```
 
@@ -87,8 +88,7 @@ source /home/$USER/dcrobot_ws/devel/setup.bash
 You have to run the following commands on your Linux terminal
 
 ```bash
-/home/$USER/dcrobot_ws/src/dcrob
-ot/mobile_rob_dev_sim/launch
+/home/$USER/dcrobot_ws/src/dcrobot/mobile_rob_dev_sim/launch
 
 roslaunch gazebo.launch
 ```
@@ -96,9 +96,7 @@ Open a new terminal, because this command occupies the terminal.
 Run the path planning
 
 ```bash
-/home/$USER/dcrobot_ws/src/path_
-planning/src/scripts
+/home/$USER/dcrobot_ws/src/path_planning/src/scripts
 
-rosrun path_planning
-path_planning.py
+rosrun path_planning path_planning.py
 ```
