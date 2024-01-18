@@ -75,7 +75,6 @@ git clone https://github.com/LuisLourenco1/projeto1_grupoB.git
 ```bash
 cd /home/$USER/dcrobot_ws/
 catkin build
-roscore
 ```
 
 ### Source your catkin workspace
@@ -103,6 +102,10 @@ catkin build
 ### Launch the .launch files 
 
 You have to run the following commands on your Linux terminal
+
+```bash
+roscore
+```
 
 ```bash
 cd /home/$USER/dcrobot_ws/src/projeto1_grupoB/dcrobot/mobile_rob_dev_sim/launch
