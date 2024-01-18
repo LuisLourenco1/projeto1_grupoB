@@ -1,8 +1,0 @@
-[01m[K/home/luis/dcrobot_ws/src/dcrobot/mobile_rob_dev/src/mobile_rob_dev/robotSystem.cpp:[m[K In member function ‘[01m[Kvoid ROBOT::System::messageCallback(const ConstPtr&)[m[K’:
-[01m[K/home/luis/dcrobot_ws/src/dcrobot/mobile_rob_dev/src/mobile_rob_dev/robotSystem.cpp:148:10:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t write(int, const void*, size_t)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
-  148 |     [01;35m[Kwrite(serial_port, msg, sizeof(msg))[m[K;
-      |     [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/luis/dcrobot_ws/src/dcrobot/mobile_rob_dev/src/mobile_rob_dev/robotSystem.cpp:[m[K In member function ‘[01m[Kvoid ROBOT::System::cmdVelCallback(const ConstPtr&)[m[K’:
-[01m[K/home/luis/dcrobot_ws/src/dcrobot/mobile_rob_dev/src/mobile_rob_dev/robotSystem.cpp:186:8:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t write(int, const void*, size_t)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
-  186 |   [01;35m[Kwrite(serial_port, msg, sizeof(msg))[m[K;
-      |   [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

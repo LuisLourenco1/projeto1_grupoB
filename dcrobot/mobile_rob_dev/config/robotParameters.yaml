@@ -1,0 +1,18 @@
+#*********************************************************************
+# Code developep by LARIS-UFSCar team.
+# Universidade Federal de São Carlos (UFSCar)
+# Departament Of Computer (DC)
+# Laboratory of Autonomous Robots and Intelligent Systems (LARIS)
+
+# contact: vivaldini@ufscar.br
+
+#**************************************************************************/
+
+# Serial Port Param
+
+  portName: "/dev/ttyACM0"  #Default: "/dev/ttyACM0"
+  baudRate: 115200         #Default: 115200
+
+# Robot Params
+  wheelRadius: 0.065
+  robotRadius: 0.2585

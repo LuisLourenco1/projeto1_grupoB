@@ -1,8 +1,0 @@
-prefix=/home/luis/dcrobot_ws/install
-
-Name: smb_navigation_scripts
-Description: Description of smb_navigation_scripts
-Version: 1.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,1 +1,0 @@
-/home/luis/dcrobot_ws/devel/.private/smb_navigation_scripts/share/smb_navigation_scripts/cmake/smb_navigation_scriptsConfig-version.cmake

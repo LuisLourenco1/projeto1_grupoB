@@ -1,5 +1,0 @@
-dcrobot/smb_description
-/home/luis/dcrobot_ws/devel/.private/smb_description/cmake.lock /home/luis/dcrobot_ws/devel/./cmake.lock
-/home/luis/dcrobot_ws/devel/.private/smb_description/lib/pkgconfig/smb_description.pc /home/luis/dcrobot_ws/devel/lib/pkgconfig/smb_description.pc
-/home/luis/dcrobot_ws/devel/.private/smb_description/share/smb_description/cmake/smb_descriptionConfig-version.cmake /home/luis/dcrobot_ws/devel/share/smb_description/cmake/smb_descriptionConfig-version.cmake
-/home/luis/dcrobot_ws/devel/.private/smb_description/share/smb_description/cmake/smb_descriptionConfig.cmake /home/luis/dcrobot_ws/devel/share/smb_description/cmake/smb_descriptionConfig.cmake

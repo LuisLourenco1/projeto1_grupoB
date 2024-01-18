@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+smbTel.launch
+
+Created by: Robson Rogério Dutra Pereira on 01.Out.2022
+Last Modified: vivaldini
+
+Description: SMB just the teleoperation launcher.
+-->
+<launch>
+    <!--  **************** Teleoperation ****************  -->
+    <node name="teleop_keyboard" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" args="cmd_vel:/cmd_vel" output="screen">
+        <param name="speed" value="0.5"/>
+        <param name="turn" value="0.5"/>
+    </node>
+</launch>

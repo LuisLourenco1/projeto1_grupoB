@@ -1,8 +1,0 @@
-prefix=/home/luis/dcrobot_ws/devel/.private/smb_description
-
-Name: smb_description
-Description: Description of smb_description
-Version: 0.1.1
-Cflags: 
-Libs: -L${prefix}/lib -lsmb_description
-Requires: xacro hector_gazebo_plugins

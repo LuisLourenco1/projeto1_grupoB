@@ -1,8 +1,0 @@
-prefix=/home/luis/dcrobot_ws/devel/.private/envrobotz
-
-Name: envrobotz
-Description: Description of envrobotz
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
