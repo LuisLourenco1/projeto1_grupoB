@@ -78,6 +78,7 @@ catkin build
 ```
 
 ### Source your catkin workspace
+You must run this in every new window you open, or you must add it in the ~/.bashrc file
 ```bash
 source /home/$USER/dcrobot_ws/devel/setup.bash
 ```
