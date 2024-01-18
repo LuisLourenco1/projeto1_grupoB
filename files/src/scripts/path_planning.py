@@ -218,7 +218,7 @@ class RoboAStar:
 if __name__ == '__main__':
     try:
         # Set the map file path and initial and goal positions for the robot.
-        robo = RoboAStar('/home/$USER/ex_ws/src/projeto1_grupoB/mapa.pgm', (565, 257), (565, 390))
+        robo = RoboAStar('/home/$USER/dcrobot_ws/src/projeto1_grupoB/mapa.pgm', (565, 257), (565, 390))
         robo.run()
     except rospy.ROSInterruptException:
         pass
