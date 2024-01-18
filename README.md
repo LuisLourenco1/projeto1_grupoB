@@ -68,7 +68,6 @@ catkin config -DCMAKE_BUILD_TYPE=Release
 
 ```bash
 cd /home/$USER/dcrobot_ws/src
-git clone https://github.com/vivaldini/dcrobot
 git clone https://github.com/MatosAugusto/projeto1_grupoB.git
 ```
 
@@ -95,7 +94,7 @@ Also, you must set the start and end point, in the same line
 You have to run the following commands on your Linux terminal
 
 ```bash
-/home/$USER/dcrobot_ws/src/dcrobot/mobile_rob_dev_sim/launch
+/home/$USER/dcrobot_ws/src/projeto1_grupoB/dcrobot/mobile_rob_dev_sim/launch
 
 roslaunch gazebo.launch
 ```
@@ -103,7 +102,7 @@ Open a new terminal, because this command occupies the terminal.
 Run the path planning
 
 ```bash
-/home/$USER/dcrobot_ws/src/path_planning/src/scripts
+/home/$USER/dcrobot_ws/src/projeto1_grupoB/path_planning/src/scripts
 
 rosrun path_planning path_planning.py
 ```
