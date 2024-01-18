@@ -68,7 +68,7 @@ catkin config -DCMAKE_BUILD_TYPE=Release
 
 ```bash
 cd /home/$USER/dcrobot_ws/src
-git clone https://github.com/MatosAugusto/projeto1_grupoB.git
+git clone https://github.com/LuisLourenco1/projeto1_grupoB.git
 ```
 
 ### Build the project
