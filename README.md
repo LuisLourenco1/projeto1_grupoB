@@ -87,6 +87,7 @@ source /home/$USER/dcrobot_ws/devel/setup.bash
 ### Editing the path planning file
 
 You **must** replace $USER in the line 230 by your linux user name
+
 Also, you must set the start and end point, in the same line
 
 ### Launch the .launch files 
@@ -107,5 +108,7 @@ Run the path planning
 rosrun path_planning path_planning.py
 ```
 After you run this, it will open a window showing the map and the path
+
 You have to close the window to the robot start moving
+
 As said before, the robot, unfortunately, will not follow the right path
