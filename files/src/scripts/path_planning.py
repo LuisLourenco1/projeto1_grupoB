@@ -17,7 +17,6 @@ class Map:
 
     def load_map(self, map_file):
         # Load the map image from the specified file in grayscale.
-        print(map_file)
         map_image = cv2.imread(map_file, cv2.IMREAD_GRAYSCALE)
         if map_image is None:
             raise ValueError("Unable to load the map file.")
