@@ -24,7 +24,8 @@
 
 6. **Critérios de Parada**: O algoritmo continua a explorar e atualizar os custos até que o nó de destino seja alcançado ou não haja mais nós para explorar na lista.
 
-
+## Problemas para rodar
+O algoritmo está com algum detalhe que impede seu perfeito funcionamento: ele lê o mapa, gera o caminho de forma correta, porém o robô não segue exatamente esse caminho. Acreditamos que seja algum problema entre o mapa mostrado no Gazebo e o mapa efetivamente utilizado no RVIZ. Aparentemente, não é um problema complexo de se resolver, mas não conseguimos resolvê-lo antes do prazo final.
 
 ## Project
 
@@ -83,6 +84,11 @@ roscore
 source /home/$USER/dcrobot_ws/devel/setup.bash
 ```
 
+### Editing the path planning file
+
+You **must** replace $USER in the line 230 by your linux user name
+Also, you must set the start and end point, in the same line
+
 ### Launch the .launch files 
 
 You have to run the following commands on your Linux terminal
@@ -100,3 +106,6 @@ Run the path planning
 
 rosrun path_planning path_planning.py
 ```
+After you run this, it will open a window showing the map and the path
+You have to close the window to the robot start moving
+As said before, the robot, unfortunately, will not follow the right path
