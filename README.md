@@ -84,10 +84,21 @@ source /home/$USER/dcrobot_ws/devel/setup.bash
 ```
 
 ### Editing the path planning file
+In the file /home/$USER/dcrobot_ws/src/projeto1_grupoB/files/src/scripts/path_planning.py
 
 You **must** replace $USER in the line 230 by your linux user name
 
 Also, you must set the start and end point, in the same line
+
+### Creating a package
+
+You have to create a package for the path planning
+```bash
+cd /home/$USER/dcrobot_ws/src/projeto1_grupoB
+catkin_create_pkg path_planning
+sudo mv /home/$USER/dcrobot_ws/src/projeto1_grupoB/files/* /home/$USER/dcrobot_ws/src/projeto1_grupoB/path_planning/
+catkin build
+```
 
 ### Launch the .launch files 
 
