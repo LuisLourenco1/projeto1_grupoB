@@ -96,6 +96,7 @@ You have to create a package for the path planning
 cd /home/$USER/dcrobot_ws/src/projeto1_grupoB
 catkin_create_pkg path_planning
 sudo mv /home/$USER/dcrobot_ws/src/projeto1_grupoB/files/* /home/$USER/dcrobot_ws/src/projeto1_grupoB/path_planning/
+cd /home/$USER/dcrobot_ws
 catkin build
 ```
 
